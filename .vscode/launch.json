@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'tic_tac_toe'",
+            "name": "Debug executable 'TicTacToe'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=tic_tac_toe",
-                    "--package=tic_tac_toe"
+                    "--bin=TicTacToe",
+                    "--package=TicTacToe"
                 ],
                 "filter": {
-                    "name": "tic_tac_toe",
+                    "name": "TicTacToe",
                     "kind": "bin"
                 }
             },
@@ -26,16 +26,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'tic_tac_toe'",
+            "name": "Debug unit tests in executable 'TicTacToe'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=tic_tac_toe",
-                    "--package=tic_tac_toe"
+                    "--bin=TicTacToe",
+                    "--package=TicTacToe"
                 ],
                 "filter": {
-                    "name": "tic_tac_toe",
+                    "name": "TicTacToe",
                     "kind": "bin"
                 }
             },

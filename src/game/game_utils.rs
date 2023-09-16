@@ -10,7 +10,7 @@ fn is_winner_in_rows(board: &board::Board, player_symbol: char) -> bool
         {
             if board.get(row * board::ROWS + col) != player_symbol
             {
-                break 'rows_loop;
+                continue 'rows_loop;
             }
         }
         
